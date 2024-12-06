@@ -1,0 +1,19 @@
+echo "IyEvdXNyL2Jpbi9lbnYgYmFzaAoKIyBGaWxlIGtvbmZpZ3VyYXNpIHJzeXNsb2cKQ09ORklHX0ZJTEU9Ii9ldGMvcnN5c2xvZy5jb25mIgoKIyBEYWZ0YXIga29uZmlndXJhc2kgeWFuZyBkaWhhcmFwa2FuCmV4cGVjdGVkX2NvbmZpZz0oCiAgICAiKi5lbWVyZyAgICAgICAgICAgICAgICAgICAgICAgICAgICA6b211c3Jtc2c6KiIKICAgICJhdXRoLGF1dGhwcml2LiogICAgICAgICAgICAgICAgICAgIC92YXIvbG9nL3NlY3VyZSIKICAgICJtYWlsLiogICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0vdmFyL2xvZy9tYWlsIgogICAgIm1haWwuaW5mbyAgICAgICAgICAgICAgICAgICAgICAgICAgLS92YXIvbG9nL21haWwuaW5mbyIKICAgICJtYWlsLndhcm5pbmcgICAgICAgICAgICAgICAgICAgICAgIC0vdmFyL2xvZy9tYWlsLndhcm4iCiAgICAibWFpbC5lcnIgICAgICAgICAgICAgICAgICAgICAgICAgICAvdmFyL2xvZy9tYWlsLmVyciIKICAgICJjcm9uLiogICAgICAgICAgICAgICAgICAgICAgICAgICAgIC92YXIvbG9nL2Nyb24iCiAgICAiKi49d2FybmluZzsqLj1lcnIgICAgICAgICAgICAgICAgICAtL3Zhci9sb2cvd2FybiIKICAgICIqLmNyaXQgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC92YXIvbG9nL3dhcm4iCiAgICAiKi4qO21haWwubm9uZTtuZXdzLm5vbmUgICAgICAgICAgICAtL3Zhci9sb2cvbWVzc2FnZXMiCiAgICAibG9jYWwwLGxvY2FsMS4qICAgICAgICAgICAgICAgICAgICAtL3Zhci9sb2cvbG9jYWxtZXNzYWdlcyIKICAgICJsb2NhbDIsbG9jYWwzLiogICAgICAgICAgICAgICAgICAgIC0vdmFyL2xvZy9sb2NhbG1lc3NhZ2VzIgogICAgImxvY2FsNCxsb2NhbDUuKiAgICAgICAgICAgICAgICAgICAgLS92YXIvbG9nL2xvY2FsbWVzc2FnZXMiCiAgICAibG9jYWw2LGxvY2FsNy4qICAgICAgICAgICAgICAgICAgICAtL3Zhci9sb2cvbG9jYWxtZXNzYWdlcyIKKQoKIyBTdGF0dXMgYXdhbCBhZGFsYWggIlBBU1MiCnN0YXR1cz0iUEFTUyIKCiMgUGVyaWtzYSBhcGFrYWggZmlsZSBrb25maWd1cmFzaSBhZGEKaWYgW1sgISAtZiAkQ09ORklHX0ZJTEUgXV07IHRoZW4KICAgIGVjaG8gIkVycm9yOiBGaWxlIGtvbmZpZ3VyYXNpICRDT05GSUdfRklMRSB0aWRhayBkaXRlbXVrYW4uIgogICAgZXhpdCAxCmZpCgojIExvb3AgdW50dWsgbWVtZXJpa3NhIHNldGlhcCBrb25maWd1cmFzaSB5YW5nIGRpaGFyYXBrYW4KZm9yIGNvbmZpZyBpbiAiJHtleHBlY3RlZF9jb25maWdbQF19IjsgZG8KICAgICMgR3VuYWthbiBncmVwIHVudHVrIG1lbmNhcmkga29uZmlndXJhc2kKICAgIGlmICEgZ3JlcCAtcUYgIiRjb25maWciICIkQ09ORklHX0ZJTEUiOyB0aGVuCiAgICAgICAgZWNobyAiS29uZmlndXJhc2kgYmVsdW0gZGl0ZXJhcGthbjogJGNvbmZpZyIKICAgICAgICBzdGF0dXM9IkZBSUwiCiAgICBmaQpkb25lCgojIFRhbXBpbGthbiBoYXNpbCBha2hpcgplY2hvICJIYXNpbCBWZXJpZmlrYXNpOiAkc3RhdHVzIgo=" | base64 -d | bash
+
+
+--OUTPUT--
+Konfigurasi belum diterapkan: *.emerg                            :omusrmsg:*
+Konfigurasi belum diterapkan: auth,authpriv.*                    /var/log/secure
+Konfigurasi belum diterapkan: mail.*                             -/var/log/mail
+Konfigurasi belum diterapkan: mail.info                          -/var/log/mail.info
+Konfigurasi belum diterapkan: mail.warning                       -/var/log/mail.warn
+Konfigurasi belum diterapkan: mail.err                           /var/log/mail.err
+Konfigurasi belum diterapkan: cron.*                             /var/log/cron
+Konfigurasi belum diterapkan: *.=warning;*.=err                  -/var/log/warn
+Konfigurasi belum diterapkan: *.crit                             /var/log/warn
+Konfigurasi belum diterapkan: *.*;mail.none;news.none            -/var/log/messages
+Konfigurasi belum diterapkan: local0,local1.*                    -/var/log/localmessages
+Konfigurasi belum diterapkan: local2,local3.*                    -/var/log/localmessages
+Konfigurasi belum diterapkan: local4,local5.*                    -/var/log/localmessages
+Konfigurasi belum diterapkan: local6,local7.*                    -/var/log/localmessages
+Hasil Verifikasi: FAIL
