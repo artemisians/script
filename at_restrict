@@ -1,0 +1,13 @@
+echo "IyEvdXNyL2Jpbi9lbnYgYmFzaAoKIyBGdW5jdGlvbiB0byBjaGVjayBmaWxlIGF0dHJpYnV0ZXMgdXNpbmcgc3RhdApjaGVja19maWxlKCkgewogICAgbG9jYWwgZmlsZT0iJDEiCgogICAgaWYgWyAtZSAiJGZpbGUiIF07IHRoZW4KICAgICAgICAjIFJldHJpZXZlIGZpbGUgcGVybWlzc2lvbiwgb3duZXIsIGFuZCBncm91cAogICAgICAgIGxvY2FsIHBlcm1pc3Npb25zIG93bmVyIGdyb3VwCiAgICAgICAgcGVybWlzc2lvbnM9JChzdGF0IC1MYyAnJWEnICIkZmlsZSIpCiAgICAgICAgb3duZXI9JChzdGF0IC1MYyAnJVUnICIkZmlsZSIpCiAgICAgICAgZ3JvdXA9JChzdGF0IC1MYyAnJUcnICIkZmlsZSIpCiAgICAgICAgCiAgICAgICAgIyBQcmludCBmaWxlIGRldGFpbHMKICAgICAgICBlY2hvICJGaWxlOiAkZmlsZSIKICAgICAgICBlY2hvICJBY2Nlc3M6ICgkcGVybWlzc2lvbnMpIE93bmVyOiAoJG93bmVyKSBHcm91cDogKCRncm91cCkiCiAgICAgICAgCiAgICAgICAgIyBDaGVjayBpZiBwZXJtaXNzaW9ucyBhcmUg4omkIDY0MAogICAgICAgIGlmIFsgIiRwZXJtaXNzaW9ucyIgLWxlIDY0MCBdOyB0aGVuCiAgICAgICAgICAgIGVjaG8gIlN0YXR1czogUEFTUyIKICAgICAgICBlbHNlCiAgICAgICAgICAgIGVjaG8gIlN0YXR1czogRkFJTCAoUGVybWlzc2lvbnMgYXJlIHRvbyBwZXJtaXNzaXZlKSIKICAgICAgICBmaQogICAgZWxzZQogICAgICAgICMgUHJpbnQgbWVzc2FnZSBpZiB0aGUgZmlsZSBkb2VzIG5vdCBleGlzdAogICAgICAgIGVjaG8gIkZpbGU6ICRmaWxlIGRvZXMgbm90IGV4aXN0LiIKICAgICAgICBlY2hvICJTdGF0dXM6IFBBU1MgKEZpbGUgZG9lcyBub3QgZXhpc3QpIgogICAgZmkKICAgIGVjaG8gIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIgp9CgojIENoZWNrIC9ldGMvYXQuYWxsb3cKY2hlY2tfZmlsZSAiL2V0Yy9hdC5hbGxvdyIKCiMgQ2hlY2sgL2V0Yy9hdC5kZW55CmNoZWNrX2ZpbGUgIi9ldGMvYXQuZGVueSI=" | base64 -d | bash
+
+
+--OUTPUT--
+
+File: /etc/at.allow
+Access: (644) Owner: (root) Group: (root)
+Status: FAIL (Permissions are too permissive)
+--------------------------------------------
+File: /etc/at.deny
+Access: (644) Owner: (root) Group: (root)
+Status: FAIL (Permissions are too permissive)
+--------------------------------------------
